@@ -2,6 +2,8 @@
 
 This project implements an RTOS-based robotic car controlled via **PS4/PS5 controllers over Bluetooth**. Built on an **ESP32** platform using **FreeRTOS/CMSIS-RTOS2**, the system integrates real-time motor, LED, and audio control. The design incorporates two distinct driving modes and a weight distribution that places most of the weight at the front, enhancing the robot’s turning performance. Our robot set a record with a fastest challenge run time of **18.49 seconds**.
 
+![alt text](https://github.com/CG2271-Project/CG2271-Final-Project/blob/main/Images/Left%20View.jpg)
+![alt text](https://github.com/CG2271-Project/CG2271-Final-Project/blob/main/Images/Top%20View.jpg)
 ---
 
 ## Features
