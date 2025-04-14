@@ -8,10 +8,10 @@ This project implements an RTOS-based robotic car controlled via **PS4/PS5 contr
 ## Team Members
 
 - **Edwin Hein Tun** - ESP32 Controller Program
-- **Viswanathan Ravisankar** - Buzzer
-- **Low Jun Chen** - Motor Control and LED
 - **Liu Jia Quan** - LED
+- **Low Jun Chen** - Motor Control and LED
 - **Ng Chee Fong** - RTOS and UART
+- **Viswanathan Ravisankar** - Buzzer and Main Driver
 
 ## Features
 
@@ -38,7 +38,7 @@ This project implements an RTOS-based robotic car controlled via **PS4/PS5 contr
 
 ---
 
-## 🎮 Controller Support
+## Controller Support
 
 The project uses the [Bluepad32](https://github.com/ricardoquesada/bluepad32) library to support **PS4 and PS5 controllers** over Bluetooth. The controller allows you to:
 - Adjust speed via the D-pad.
@@ -74,5 +74,5 @@ Tasks synchronize via semaphores to ensure smooth and conflict-free operation.
 
 ---
 
-## 🎥 Video Submission
+## Video Submission
 - To be uploaded soon!
