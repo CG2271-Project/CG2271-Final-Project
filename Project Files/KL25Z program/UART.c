@@ -61,14 +61,4 @@ void UART2_IRQHandler() {
 	
 	
 	osSemaphoreRelease(brainSemaphore);
-
-  // Error Cases
-  if (UART2->S1 & (UART_S1_OR_MASK 
-                  | UART_S1_NF_MASK
-                  | UART_S1_FE_MASK 
-                  | UART_S1_PF_MASK)) {
-    // handle the error
-    
-    // clear the flag
-  }
 }

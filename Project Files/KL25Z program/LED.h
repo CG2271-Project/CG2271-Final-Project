@@ -37,10 +37,6 @@ typedef enum {
     led_on  = 1
 } led_state_t;
 
-/*
-char led_mapping[9][2] = {{0, red_led}, {1, green_led}, {2, blue_led}};
-*/
-
 void onRGB(void);
 void offGreen(void);
 void ledControl(led_colors_t color, led_state_t state);
